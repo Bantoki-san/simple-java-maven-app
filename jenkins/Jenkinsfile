@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                sh "git clone "
+                sh "git clone https://github.com/Bantoki-san/simple-java-maven-app.git"
             }
         }
         stage('Build') {
